@@ -1,0 +1,59 @@
+.index-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.index-container1 {
+  flex: 0 0 auto;
+  width: 1084px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.index-title {
+  font-size: 36px;
+  align-self: center;
+  font-style: normal;
+  margin-top: 16px;
+  font-family: Arial;
+  font-weight: 700;
+}
+.index-about {
+  align-self: center;
+  margin-top: 16px;
+  font-family: Arial;
+}
+.index-container2 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-self: center;
+  margin-top: 32px;
+  align-items: flex-start;
+}
+.index-container3 {
+  top: 0px;
+  flex: 0 0 auto;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-self: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.index-image {
+  width: 200px;
+  align-self: center;
+  object-fit: cover;
+}
+.index-desc {
+  align-self: center;
+  margin-top: 16px;
+  font-family: Arial;
+}
